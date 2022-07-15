@@ -1,0 +1,347 @@
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+
+/*custom queires.............................................*/
+
+
+
+@media only screen and (max-width : 991px) {
+
+       .slider_content .bx-wrapper, .slider_content .bx-viewport, .slider_content .bx-wrapper .slider-img ,.feature-sec, .head-bgg{
+    height: 820px !important; 
+    margin: 0;
+}
+.smallnav-main {
+  z-index: 1000;
+
+}
+ .smallnav ul{
+        padding: 0;
+    display: inline-block;
+    float: none !important;
+ } 
+.main-nav .col-lg-12 .navbar-collapse .navbar-right{
+    float:none!important;
+    display:inline-block;
+    margin-top: 0;
+}
+.feature-sec,.head-bgg{
+	height: auto;
+}
+
+
+.main-nav .navbar-collapse{
+    text-align: center;
+    float:none!important;
+}
+.main-nav .navbar-header .logo-container a.mainlogo img{
+      height: 60px;
+    position: relative;
+    margin-top: 0;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+.main-nav .navbar-header{
+    display:block;
+    width:100%;
+}
+.header .midbox {
+  
+ 
+   width: 95%;
+}
+
+.header .midbox h1 {
+  
+    font-size: 2.2em
+}
+
+.header .midbox a {
+ 
+    font-size: 13px;
+  
+}
+
+.header .mainbpx2 {
+
+      width: 80%;
+}
+
+.header .mainbpx2 h1 {
+    font-size: 1.7em
+}
+#carsearch{
+   width: 95%;
+
+}
+
+.header .mainboxes3 {
+
+    width: 85%;
+
+}
+
+
+.header .midbox {
+
+	margin-top: 60px !important;
+}
+.header .searchlocation .btnsection .btnsearch{
+	margin-top: 10px;
+}
+
+/*.............about section*/
+
+.about-sect .container .about-boxes .col-md-4{
+	margin-bottom: 20px;
+}
+
+
+
+/*....................service ............*/
+
+
+.service-bg{
+    padding: 30px 15px;
+
+}
+.services-sec{
+    height: auto;
+    
+}
+
+.services-sec .service-bg .service-boxes .service-box{
+	margin-top: 40px !important;
+}
+
+.services-sec .service-bg .service-boxes .service-box .btn-learn-more{
+	font-size: 14px;
+	padding: 5px 10px;
+}
+.services-sec .service-bg .service-boxes .service-box .circle{
+	width: 120px;
+height: 120px;
+}
+
+.services-sec .service-bg .service-boxes .service-box .linousine-srvc img,.services-sec .service-bg .service-boxes .service-box .transportation img,.services-sec .service-bg .service-boxes .service-box .car-rental img{
+	height: 30px;
+}
+
+.services-sec .service-bg .service-boxes .service-box .car-leasing img {
+    height: 46px;
+    margin-left: -8px;
+    margin-top: 34%;
+}
+
+.news-sec .news-boxs .outer{
+	text-align: center;
+	
+}
+
+.footer .signin .instruction{
+text-align: center;
+
+}
+
+.footer .signin .col-md-6 .form{
+	text-align: center;
+	
+}
+.footer .signin .col-md-6 .form .col-xs-12{
+	padding-left: 15px !important;
+	
+}
+.footer div.links div.container .imp-links{
+	text-align: center;
+	
+}
+.footer div.links div.container .imp-links li{
+	margin-bottom: 10px;
+}
+.footer-col,.footer-col h4{
+	text-align: center !important;
+	line-height: 2;
+}
+/*...............customer section........................*/
+
+.customer-sec{
+	text-align: center;
+	
+}
+.parallax-window {
+    min-height: 800px !important;
+    
+}
+
+
+/*.......FEATURED ....................*/
+.col_third{
+	margin-bottom: 400px;
+}
+
+	.header .mainboxes3 .secchild{
+		border-left: 0;
+		border-right: 0;
+		border-bottom: 1px solid #fff;
+		border-top:1px solid #fff; ;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 991px)  {
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width : 768px) {
+.clear-mobile{
+    clear:both!important;
+    margin-top:20px;
+}
+  .mobile-center{
+    text-align:center!important;
+  }  
+ .mobile-show22{
+    display:block;
+}
+.mobile-hide22{
+     display:none;
+}   
+.mobile-number-new-show{
+    display:block !important;
+        float: none!important;
+    clear: both;
+}
+.mobile-number-new{
+     display:none !important;
+}
+
+
+.left-tabs a{
+        border-radius: 50px;
+        border-left: 2px;
+}
+.ser-tabs .tabs-head a{
+        width: 100%;
+} 
+ .padlr{
+    padding-right:15px !important;
+    padding-left:15px !important;
+ }   
+.editable {
+    margin-top:10px;
+} 
+
+.nav>li.m-nav-option{
+    display:block;
+}   
+.main-nav-option{
+    display:none;
+}
+.main-nav-option22 a{
+    display: block;
+    padding: 6px 10px;
+    margin-bottom:20px;
+}
+	.footer-col,.social-sec{
+		  padding-left: 15px!important;
+	}
+    
+.main-nav .navbar-header .logo-container a.mainlogo img{
+    display:inline-block;
+}
+.section-header img{
+	height: 60px;
+	margin-bottom: 10px;
+}
+
+.service-bgg {
+  height: auto!important;
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width : 768px) {
+ .navbar-collapse{
+    position: absolute;
+    width: 100%;
+    background: #fff;
+ }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen  and (max-width : 600px)  {
+section.header-search .search-cover .container .row .tagline{
+        font-size: 26px;
+        
+}
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen  and (min-width : 420px) and (max-width : 600px)  {
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 419px) {
+              .slider_content .bx-wrapper, .slider_content .bx-viewport, .slider_content .bx-wrapper .slider-img ,.feature-sec, .head-bgg{
+    height: 860px !important; 
+    margin: 0;
+  }
+}

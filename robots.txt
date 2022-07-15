@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /uploads/
+Disallow: /landingPage/
+Disallow: /ui-mobile/
+Disallow: /SmartMail/
+Disallow: /vendor/
+Disallow: /Autorent/
+Disallow: /uploads/
+Disallow: /images/
+Disallow: /lib/
+Disallow: /libs/
+Disallow: /reCaptcha/
+
+Sitemap: https://autorent-me.com/sitemap.xml

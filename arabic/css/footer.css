@@ -1,0 +1,186 @@
+
+.footer {
+ /* margin-top: 30px;*/
+  color: #ffffff;
+}
+.footer a {
+  color: #eee;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+.footer .signin {
+      overflow:hidden;
+  position:relative;
+  background-color: #849ebb;
+  padding: 15px 0;
+
+}
+.footer .signin .instruction {
+  color: #ffffff;
+  padding: 15px 0 5px 0;
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.5;
+}
+.footer .signin .learnbtn {
+  padding: 9px 25px;
+  border: none;
+  background: #ce1432;
+  color: #ffffff;
+}
+.footer .signin .learnbtn:hover {
+ background: #A5273B;
+  
+}
+.footer .signin .col-md-6 .form {
+  text-align: right;
+  padding-top: 15px;
+}
+.footer .signin .col-md-6 .form input {
+  border: 1px solid #ffffff;
+  padding: 5px 0 5px 15px;
+  color: #000;
+  vertical-align: top;
+}
+.footer .signin .col-md-6 .form button.btn {
+  padding: 5px 10px;
+  background-color: #ce1432;
+  color: #ffffff;
+  border-radius: 0;
+  vertical-align: top;
+}
+.footer div.links {
+  background-color: #19222C;
+  padding: 45px 0 15px 0;
+}
+.footer div.links div.container div.social-sec {
+  padding-left: 55px;
+}
+.footer div.links div.container div.social-sec div.col-md-3 {
+  text-align: left;
+}
+.footer div.links div.container div.social-sec div.col-md-3 .section-header {
+  text-align: center;
+}
+.footer div.links div.container div.social-sec div.col-md-3 p {
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
+  color: #eee;
+}
+.footer div.links div.container div.social-sec div.col-md-3 ul.list-inline {
+  text-align: center;
+}
+.footer div.links div.container div.social-sec div.col-md-3 ul.list-inline li a i {
+  margin-right: 10px;
+    margin-top: 10px;
+  font-size: 23px;
+
+  -webkit-transition: all ease-in-out .2s;
+    -o-transition: all ease-in-out .2s;
+    -moz-transition: all ease-in-out .2s;
+    -ms-transition: all ease-in-out .2s
+}
+
+.footer div.links div.container div.social-sec div.col-md-3 ul.list-inline li a i:hover {
+color: #ce1432;
+}
+.footer div.links div.container div.social-sec div.services {
+  padding-left: 20px;
+}
+.footer div.links div.container div.social-sec div.services .section-header {
+  text-align: left;
+}
+.footer div.links div.container div.social-sec div.services ul.list-unstyled {
+  margin: 0px;
+}
+.footer div.links div.container div.social-sec div.services ul.list-unstyled li a.link {
+  line-height: 25px;
+}
+.footer div.links div.container div.social-sec div.services p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.footer div.links div.container div.social-sec div.company {
+  padding-left: 20px;
+}
+.footer div.links div.container div.social-sec div.company .section-header {
+  text-align: left;
+}
+.footer div.links div.container div.social-sec div.company ul.list-unstyled {
+  margin: 0px;
+}
+.footer div.links div.container div.social-sec div.company ul.list-unstyled li a.link {
+  line-height: 25px;
+}
+.footer div.links div.container div.social-sec div.company p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.footer div.links div.container div.social-sec div.col-md-3:last-child {
+  text-align: left;
+}
+.footer div.links div.container div.social-sec div.col-md-3:last-child .section-header {
+  text-align: left;
+}
+.footer div.links div.container div.social-sec div.col-md-3:last-child ul.list-unstyled {
+  margin: 0px;
+}
+.footer div.links div.container div.social-sec div.col-md-3:last-child ul.list-unstyled li {
+  margin-left: 0px;
+}
+.footer div.links div.container div.social-sec div.col-md-3:last-child ul.list-unstyled li a.link {
+  line-height: 25px;
+  display: inline-block;
+}
+.footer div.links div.container div.social-sec div.col-md-3:last-child ul.list-unstyled li a.link img {
+  margin-right: 20px;
+}
+.footer div.links div.container div.social-sec div.col-md-3:last-child p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.footer div.links div.container .col-md-3 {
+  padding-left: 0;
+  margin-left: 0;
+}
+.footer div.links div.container .col-md-3 div.section-header h4 {
+  font-size: 18px;
+  color: #269BDB;
+  margin-top: 0;
+}
+.footer div.links div.container hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  margin: 30px 0 15px 0;
+  padding: 0;
+  background-color: #454545;
+}
+.footer div.links div.container div.col-md-4 {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+.footer div.links div.container .imp-links {
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer div.links div.container .imp-links .imp-link {
+  border-right: 1px solid #fff;
+}
+.footer div.links div.container .imp-links .imp-link a {
+  padding: 5px 4px;
+  font-size: 12px;
+  color: #eee;
+}
+/*# sourceMappingURL=footer.css.map */

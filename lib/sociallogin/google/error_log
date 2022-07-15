@@ -1,0 +1,1 @@
+[26-Oct-2015 11:25:16 UTC] PHP Fatal error:  Call to undefined method stdClass::updatesocialprofile() in /home/d4int/public_html/waqas/auto_rent/lib/sociallogin/google/google_login.php on line 75

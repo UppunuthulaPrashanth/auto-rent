@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2022/04/05" author="e.World Technology Ltd.">
+  <project id="{F745D41A-D8C3-4E57-B065-3A7F49376673}" file="C:\Users\VasuDevan\Dropbox\PMPs\Autorent.pmp" name="Autorent" product="PHPMaker" version="14.0" datetime="2022/04/05 14:00:50" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;">
+    <table id="cms_users" name="cms_users" caption="CMS Users" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_city" name="mtr_city" caption="Master City" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_country" name="mtr_country" caption="Master Country" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="notification_options" name="notification_options" caption="Notification Options" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="notification_recipients" name="notification_recipients" caption="Notification Recipients" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="smtp_details" name="smtp_details" caption="SMTP Details" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="socials" name="socials" caption="Socials" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="about_stats" name="about_stats" caption="About Stats" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="about_us" name="about_us" caption="About Us" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="home_stats" name="home_stats" caption="Home Stats" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_subscribe" name="inb_subscribe" caption="Subscribe" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="news" name="news" caption="News" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="pages_static" name="pages_static" caption="Pages Static" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="sliders" name="sliders" caption="Sliders" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="team" name="team" caption="Team" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="branches" name="branches" caption="Branches" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="faqs" name="faqs" caption="Faqs" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="home_apps" name="home_apps" caption="Home Apps" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_contactus" name="inb_contactus" caption="Contact Us" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_locations" name="mtr_locations" caption="Master Locations" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="promotions" name="promotions" caption="Promotions" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="region" name="region" caption="Region" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_enquiry" name="inb_enquiry" caption="Enquiry" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_service_type" name="mtr_service_type" caption="Master Service Type" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="services" name="services" caption="Services" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="book_rent_vehicles" name="book_rent_vehicles" caption="Book Rent Vehicles" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="contact_map" name="contact_map" caption="Contact Map" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_used_cars_enquiry" name="inb_used_cars_enquiry" caption="Used Cars Enquiry" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="meta_datas" name="meta_datas" caption="Meta Datas" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_body_condition" name="mtr_body_condition" caption="Master Body Condition" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_bodytype" name="mtr_bodytype" caption="Master Bodytype" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_car_classes" name="mtr_car_classes" caption="Master Car Classes" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_color" name="mtr_color" caption="Master Color" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_cylinder" name="mtr_cylinder" caption="Master Cylinder" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_extra_features" name="mtr_extra_features" caption="Master Extra Features" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_fuel_type" name="mtr_fuel_type" caption="Master Fuel Type" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_make" name="mtr_make" caption="Master Make" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_model" name="mtr_model" caption="Master Model" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_nationality" name="mtr_nationality" caption="Master Nationality" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_regional_spec" name="mtr_regional_spec" caption="Master Regional Spec" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_transmission" name="mtr_transmission" caption="Master Transmission" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_warranty" name="mtr_warranty" caption="Master Warranty" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_year" name="mtr_year" caption="Master Year" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="pickup_drop_locations" name="pickup_drop_locations" caption="Pickup Drop Locations" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="rent_lease_cars" name="rent_lease_cars" caption="Rent Cars" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="used_cars" name="used_cars" caption="Used Cars" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="users" name="users" caption="Users" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="view_used_cars" name="view_used_cars" caption="view used cars" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_reportbreakdown" name="inb_reportbreakdown" caption="Report Breakdown" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_bookings" name="inb_bookings" caption="Bookings" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_lease_cars" name="inb_lease_cars" caption="Lease Cars" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="mtr_term" name="mtr_term" caption="Master Term" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="corporate_leasing" name="corporate_leasing" caption="Corporate Leasing" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="corporate_sidebar" name="corporate_sidebar" caption="Corporate Sidebar" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="corporate_solutions" name="corporate_solutions" caption="Corporate Solutions" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_corporate_leasing" name="inb_corporate_leasing" caption="Corporate Leasing" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_corporate_solutions" name="inb_corporate_solutions" caption="Corporate Solutions" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_feedbacks" name="inb_feedbacks" caption="Feedbacks" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_leasecars_enquiry" name="inb_leasecars_enquiry" caption="Leasecars Enquiry" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_new_vehicle_enquiry" name="inb_new_vehicle_enquiry" caption="New Vehicle Enquiry" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="lease_cars" name="lease_cars" caption="Lease Cars" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="pay_as_you_drive" name="pay_as_you_drive" caption="Pay as you Drive" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="rental_guide" name="rental_guide" caption="Rental Guide" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_bookings_pay_as_you_drive" name="inb_bookings_pay_as_you_drive" caption="Bookings Pay as You Drive" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="others" name="others" caption="Others" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="car_hire" name="car_hire" caption="Car Hire" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="pg_transactions" name="pg_transactions" caption="PG Transactions" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="terms_conditions" name="terms_conditions" caption="Terms and Conditions" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="car_listing_blog" name="car_listing_blog" caption="Car Listing Blog" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="home_document_required" name="home_document_required" caption="Document Required" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_payasyoudrive_enquiry" name="inb_payasyoudrive_enquiry" caption="Pay as you Drive Enquiry" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="inb_rent_cars_enquiry" name="inb_rent_cars_enquiry" caption="Rent Cars Enquiry" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+  </project>
+</configuration>
