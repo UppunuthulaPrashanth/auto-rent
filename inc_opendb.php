@@ -2,7 +2,6 @@
 
 session_start();
 
-
 error_reporting(E_ERROR | E_PARSE);
 // error_reporting( E_ALL );
 // ini_set( 'display_errors', 1 );
@@ -191,40 +190,41 @@ if(!isset($_SESSION[CURRENT_GEOLOCATION]))
 
 
 //Set currency
+$_SESSION[CURRENT_CURRENCY] = OMR;
 
-if(!isset($_SESSION[CURRENT_CURRENCY]))
+// if(!isset($_SESSION[CURRENT_CURRENCY]))
 
-{
+// {
 
-	switch ($_SESSION[CURRENT_GEOLOCATION])
+// 	switch ($_SESSION[CURRENT_GEOLOCATION])
 
-	{
+// 	{
 
-		case "OM":
+// 		case "OM":
 
-			$_SESSION[CURRENT_CURRENCY] = OMR;
+// 			$_SESSION[CURRENT_CURRENCY] = OMR;
 
-			break;
-
-
-
-		case "SA":
-
-			$_SESSION[CURRENT_CURRENCY] = SAR;
-
-			break;
+// 			break;
 
 
 
-		default:
+// 		case "SA":
 
-			$_SESSION[CURRENT_CURRENCY] = AED;
+// 			$_SESSION[CURRENT_CURRENCY] = SAR;
 
-			break;
+// 			break;
 
-	}
 
-}
+
+// 		default:
+
+// 			$_SESSION[CURRENT_CURRENCY] = OMR;
+
+// 			break;
+
+// 	}
+
+// }
 
 
 
