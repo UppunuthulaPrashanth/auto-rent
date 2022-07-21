@@ -17,6 +17,7 @@
 							   <div class="input-group">
 								  <div id="radioBtn" class="btn-group">
 									 <?php
+									//  session_destroy('CURRENT_CURRENCY');
 										$i=0;
 										$result = $db->query("SELECT * FROM rent_lease_cars 
 										LEFT JOIN mtr_bodytype ON rent_lease_cars.bodyTypeID = mtr_bodytype.bodyTypeID

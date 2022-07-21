@@ -294,7 +294,7 @@
                                {
                                 ?>
                                    <a class="" href="/login" >
-                                       <i class="fa fa-user-circle-o navbar-nav-item-user-icon"></i>fkkfkkLogin
+                                       <i class="fa fa-user-circle-o navbar-nav-item-user-icon"></i>Login
                                    </a>
                                    <?php
                                }
