@@ -20,6 +20,13 @@
     background: #cd1431
 }
 
+.nav .active{
+    background-color: #CD1432;
+    border-radius: 3px;
+    color: white !important;
+    padding:8px;
+}
+
 .nav-active-primary > li.active > a, .nav-active-primary > li.active > a:hover, .nav-active-primary > li.active > a:focus {
     background: #024da1
 }
@@ -461,14 +468,14 @@ select option {
 /*    color: #000000 !important;*/
 /*}*/
 
-
+/* 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
     background-color:#cd1431;
     padding-left:5px;
     padding-right:5px;
     color:#fff
-}
+} */
 
 
 
@@ -669,7 +676,10 @@ select option {
 @media screen and (min-width: 320px) {
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 992px) {
+    .hotdealstitle{
+        margin-top: 90px !important;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -724,3 +734,6 @@ select option {
     background-color:lightgray;
     border-radius: 10px;
   }
+
+
+  

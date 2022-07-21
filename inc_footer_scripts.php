@@ -83,10 +83,7 @@ if( $PAGEID == "Contact Us")
 
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
-
-
-
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDb26jMuIMtepAh3T2WfJRzg5eZgUqNIIw&callback=initMap"></script>
 <style>
 
     /*sticky header*/
@@ -3327,6 +3324,69 @@ document.getElementsByName("pickupDate")[0].min = today;
 //     })();
 </script>
 
+
+<!-- popup map for homepage -->
+
+<script>
+var mapDiv = document.createElement('div');
+mapDiv.setAttribute("id", "map");
+mapDiv.style.cssText = 'display: table; width: 45vw; height: 50vh;';
+// document.body.appendChild(mapDiv);
+$('#over_map').append(mapDiv)
+
+var locations = [
+    ['<h3>Sur</h3> in Oman', 22.568940175808038, 59.49751999750121, 3],
+    ['<h3>Gala</h3> in Oman', 23.571706656752646, 58.3577412, 5],
+    ['<h3>Duqm</h3> in Oman', 19.620307052018298, 57.63793199745145, 4],
+    ['<h3>Qurum</h3> in Oman', 23.609564008385103, 58.49263308217661, 3],
+    ['<h3>Sohar</h3> in Oman', 24.342513047222752, 56.72674072637047, 2],
+    ['<h3>Salalah</h3> in Oman', 17.01899729783929, 54.043624353233106, 1],
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 3,
+      center: new google.maps.LatLng(23.6,58.6),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+
+
+
+    $('#dropMap').hover(function () {
+        $('#myModal').modal({
+            show: true,
+            backdrop: false
+        });
+    });
+    $('#pickupMap').hover(function () {
+        $('#myModal').modal({
+            show: true,
+            backdrop: false
+        });
+    });
+</script>
+<!-- end popup map  -->
+
+
+
+
 <style>
     .dfBDQI
     {
@@ -3334,7 +3394,18 @@ document.getElementsByName("pickupDate")[0].min = today;
     }
 </style>
 
+<!-- homepage maps style -->
+<style>
+  /* #over_map { position: absolute; top: 10px; left: 10px; z-index: 99; 
+  width:200px;height:100px;border:1px solid black; background: white; } */
+  body.modal-open {
+  padding-right: 0 !important;
+  }
+  .modal-body{
+    min-height: 330px !important;
+  }
 
+</style>
 <!-- /GetButton.io widget -->
 
 

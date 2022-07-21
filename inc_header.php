@@ -15,7 +15,7 @@
             </button>
          </div>
          <div class="row collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav np">
+            <ul class="nav navbar-nav np  headerbluebar">
                      <?php
                            $result = $db->query( "SELECT * FROM socials WHERE active = 1 ORDER BY so ASC" );
                            while ( $row = mysqli_fetch_assoc( $result ) )
@@ -26,7 +26,7 @@
                         </li>
                         <?php } ?>
 
-                  <li><a href="tel:80054999" class="text-upcase header-call-now"><i class="fa fa-phone"></i> &nbsp;800 54 999</a></li>
+                  <li><a href="tel:80054999" class="text-upcase header-call-now call-phone"><i class="fa fa-phone"></i> &nbsp;800 54 999</a></li>
             </ul>
          </div>
       </nav>
@@ -163,7 +163,7 @@
                      <i class="fa fa-user-circle-o navbar-nav-item-user-icon"></i>Hi,<?php echo $_SESSION[FIRSTNAME] . ' ' . $_SESSION[LASTNAME] ?>
                      </a>
                   </li>
-                  <li class="navbar-nav-item-user dropdown">
+                  <li class="navbar-nav-item-user dropdown" id="logingModule">
                      <a class="" href="/logout" style="background-color:transparent"> <i class="fa fa-sign-out navbar-nav-item-user-icon"></i>Logout </a>
                      <?php
                         } else
@@ -187,16 +187,16 @@
                   <!---->
                   <!--						</li>-->
                   <li class="dropdown ">
-                     <a class="dropdown-toggle bg-red" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Personal
+                     <a class="dropdown-toggle bg-red" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="<?php if($_SERVER['REQUEST_URI']=='/rent-cars' || $_SERVER['REQUEST_URI']=='/corporate-leasing' || $_SERVER['REQUEST_URI']=='/' ){echo 'active';}?>">Rental</span>
                      </a>
                      <div class="dropdown-menu dropdown-menu-sm">
                         <div class="col-md-12 single-menu">
                            <ul class="dropdown-meganav-list-items">
                               <li>
-                                 <a href="rent-cars"> Rental </a>
+                                 <a href="rent-cars"><span class="<?php if($_SERVER['REQUEST_URI']=='/rent-cars'){echo 'active';} ?>" >Individual</span> </a>
                               </li>
                               <li>
-                                 <a href="lease-cars"> Lease </a>
+                                 <a href="corporate-leasing"><span class="<?php if($_SERVER['REQUEST_URI']=='/corporate-leasing'){echo 'active';} ?>">Corporate</span> </a>
                               </li>
                               <!-- 	<li>
                                  <a href="pay-you-drive"> Pay As You Drive </a>
@@ -208,21 +208,26 @@
                         </div>
                      </div>
                   </li>
-                  <li class="dropdown">
-                     <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Corporate
+                  <!-- <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+                        <span class="<?php //if($_SERVER['REQUEST_URI']=='/lease-cars'){echo 'active';} ?>">Leasing</span>
                      </a>
                      <div class="dropdown-menu dropdown-menu-sm">
                         <div class="col-md-12 single-menu">
                            <ul class="dropdown-meganav-list-items">
                               <li>
-                                 <a href="corporate-leasing"> Leasing </a>
+                                 <a href="corporate-leasing"> <span class="<?php //if($_SERVER['REQUEST_URI']=='/corporate-leasing'){echo 'active';} ?>"> Leasing</span> </a>
                               </li>
-                              <!--										<li>-->
-                              <!--											<a href="corporate-customized-solutions"> Custom Solutions </a>-->
-                              <!--										</li>-->
+                           						<li>
+                                                 <a href="corporate-customized-solutions"> Custom Solutions </a>
+                              					</li>
                            </ul>
                         </div>
                      </div>
+                  </li> -->
+
+                  <li>
+                     <a href="lease-cars"><span class="<?php if($_SERVER['REQUEST_URI']=='/lease-cars'){echo 'active';} ?>" > Leasing </span></a>
                   </li>
                   <!--						<li>-->
                   <!--							<a href="/about">About</a>-->
@@ -260,26 +265,32 @@
                   <!--							</div>-->
                   <!--						</li>-->
                   <li>
-                     <a href="promotions"> Offers </a>
-                  </li>
+         				<a href="/about"><span class="<?php if($_SERVER['REQUEST_URI']=='/about'){echo 'active';} ?>" >About us</span></a>
+         			</li>
                   <li>
-                     <a href="blog"> Blog </a>
+                     <a href="promotions"><span class="<?php if($_SERVER['REQUEST_URI']=='/promotions'){echo 'active';} ?>" > Offers </span></a>
+                  </li>
+                  
+                  <li>
+                     <a href="blog"><span class="<?php if($_SERVER['REQUEST_URI']=='/blog'){echo 'active';} ?>" > Blog</span> </a>
                   </li>
                   <li class="dropdown">
-                     <a id="contact-header" href="/contact" class="dropdown-toggle"> Contact</a>
+                     <a id="contact-header" href="/contact" class="dropdown-toggle"><span class="<?php if($_SERVER['REQUEST_URI']=='/contact' || $_SERVER['REQUEST_URI'=='/road-side-assistance']){echo 'active';} ?>" > Contact</span></a>
                      <div class="dropdown-menu dropdown-menu-sm">
                         <div class="col-md-12 single-menu">
                            <ul class="dropdown-meganav-list-items">
                               <li>
-                                 <a href="road-side-assistance"> Road Side Assistance </a>
+                                 <a href="road-side-assistance"> <span class="<?php if($_SERVER['REQUEST_URI']=='/road-side-assistance'){echo 'active';} ?>" >Road Side Assistance</span> </a>
                               </li>
                            </ul>
                         </div>
                      </div>
                   </li>
                   <li>
-                     <a href="feedbacks">Feedback</a>
+                     <a href="feedbacks"><span class="<?php if($_SERVER['REQUEST_URI']=='/feedbacks'){echo 'active';} ?>" >Feedback</span></a>
                   </li>
+
+                 
                   <!--                        <li>-->
                   <!--                            <a href="road-side-assistance">Road Side Assistance</a>-->
                   <!--                        </li>-->

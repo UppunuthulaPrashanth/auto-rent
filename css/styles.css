@@ -14874,13 +14874,32 @@ fieldset[disabled] .btn-primaryy:hover {
   border-radius: 10px;
 }
 
-.nav>li>a:hover {
+.nav>li>a>span:hover {
+  border-radius: 3px;
   background-color: #feae96 !important;
 background-image: linear-gradient(315deg, #feae96 0%, #fe0944 74%) !important ;
-
-transition: .4s;
+padding:8px;
+transition: .1s;
 }
 
+.headerbluebar>li>a:hover {
+  border-radius: 3px;
+  background-color: #feae96 !important;
+background-image: linear-gradient(315deg, #feae96 0%, #fe0944 74%) !important ;
+padding:8px;
+transition: .1s;
+}
+#logingModule>a:hover{
+  border-radius: 3px;
+  background-color: #feae96 !important;
+background-image: linear-gradient(315deg, #feae96 0%, #fe0944 74%) !important ;
+transition: .1s;
+}
+
+
+#mainFooter{
+  background-color: #ebecf0 !important;
+}
 
 
 /* media quries for all devices */
@@ -14892,14 +14911,30 @@ transition: .4s;
     padding:0 !important;
     margin-top: 70px !important;
   }
-
+  .header-call-now{
+    font-size:10px !important;
+  }
   
+}
+
+.headerbluebar{
+  margin-top: -2px !important;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .staticBanner { 
     height: 600px;
+  }
+  .header-call-now{
+    /* font-size:10px !important; */
+  }
+
+  .header-call-now{
+    font-size: 13px  !important;
+  }
+  .call-phone{
+    font-size: 20px !important;
   }
 }
 
@@ -14908,6 +14943,9 @@ transition: .4s;
   .staticBanner { 
     height: 600px;
   } 
+  #navbar-main{
+    margin-top:7px !important
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -16589,3 +16627,8 @@ p.dull b {
   #date-inp::-webkit-calendar-picker-indicator {
     padding-left: 47px;
   }
+
+  .nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #CD1432;
+}

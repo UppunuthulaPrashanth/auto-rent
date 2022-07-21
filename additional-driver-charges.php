@@ -1,7 +1,7 @@
 <?php
 require "lib/config/config.php";
 require "lib/config/autoload.php";
-error_reporting(E_ALL);
+//error_reporting(E_ALL);
 ob_start();
 
 $user = userdb::getInstance();

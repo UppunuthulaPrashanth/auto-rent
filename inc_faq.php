@@ -1,4 +1,4 @@
-<div class="theme-page-section  theme-page-section-lg" style="background:#f7f7f7">
+<div class="theme-page-section  theme-page-section-lg" style="background:#ebecf0">
 
     <div class="container _pv-40">
 

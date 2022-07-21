@@ -36,7 +36,6 @@ $counter       = mysqli_num_rows( $rentCarResult );
 
 
 
-<?php include 'inc_header.php'; ?>
 
 <?php
 

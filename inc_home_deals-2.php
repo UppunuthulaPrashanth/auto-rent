@@ -6,7 +6,7 @@ $row    = mysqli_fetch_assoc( $result );
 ?>
 <div class="theme-page-section theme-page-section-xxl ">
     <div class="container _pv-40">
-        <div class="theme-page-section-header">
+        <div class="theme-page-section-header hotdealstitle">
             <h5 class="theme-page-section-title theme-page-section-title-lg title-blue"><?php echo $row['pageTitle']; ?></h5>
 
             <p class="theme-page-section-subtitle black-text"><?php echo $row['subTitle']; ?></p>
@@ -160,3 +160,4 @@ $row    = mysqli_fetch_assoc( $result );
         </div>
     </div>
 </div>
+

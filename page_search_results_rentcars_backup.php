@@ -1,7 +1,7 @@
 <?php include "inc_opendb.php";
 $PAGEID = "Rent a Cars";
-error_reporting( E_ALL );
-ini_set( 'display_errors', 1 );
+// error_reporting( E_ALL );
+// ini_set( 'display_errors', 1 );
 $queryAppend = "";
 //echo "<pre>";
 //echo print_r($_POST);

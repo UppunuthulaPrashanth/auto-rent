@@ -1957,7 +1957,7 @@
         <phrase id="fldcaption" value="No Of Doors" />
       </field>
       <field id="deliveryaed">
-        <phrase id="fldcaption" value="Delivery AED" />
+        <phrase id="fldcaption" value="Delivery OMR" />
       </field>
       <field id="dailyaed">
         <phrase id="fldcaption" value="AED" />
@@ -3059,7 +3059,7 @@
         <phrase id="fldcaption" value="Add Baby Safety Seat Monthly AED" />
       </field>
       <field id="deliveryaed">
-        <phrase id="fldcaption" value="Delivery AED" />
+        <phrase id="fldcaption" value="Delivery OMR" />
       </field>
       <field id="active">
         <phrase id="fldcaption" value="Active" />

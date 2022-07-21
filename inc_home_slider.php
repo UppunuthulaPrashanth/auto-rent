@@ -37,7 +37,7 @@
 							<div class="col-md-6">
 							   <div class="theme-search-area-section first theme-search-area-section-curved theme-search-area-section-fade-white theme-search-area-section-no-border">
 								  <div class="theme-search-area-section-inner">
-									 <i class="theme-search-area-section-icon lin lin-location-pin"></i>
+									 <i class="theme-search-area-section-icon lin lin-location-pin" id="pickupMap"></i>
 									 <select class="theme-search-area-section-input" id="pickupLocation" name="pickupLocation" required>
 										<option selected value="" disabled>Pick up location  </option>
 										<?php
@@ -56,7 +56,7 @@
 							<div class="col-md-6">
 							   <div class="theme-search-area-section theme-search-area-section-curved theme-search-area-section-fade-white theme-search-area-section-no-border">
 								  <div class="theme-search-area-section-inner">
-									 <i class="theme-search-area-section-icon lin lin-location-pin"></i>
+									 <i class="theme-search-area-section-icon lin lin-location-pin" id="dropMap"></i>
 									 <select class="theme-search-area-section-input" id="dropLocation" name="dropLocation" required>
 										<option selected value="" disabled>Drop off location</option>
 										<?php
@@ -137,4 +137,38 @@
 		  </div>
 	   </div>
 	</div>
+	
  </div>
+ <!-- Button to Open the Modal -->
+
+  
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+  
+		<!-- Modal Header -->
+		<div class="modal-header">
+		  <h4 class="modal-title">Booking Locations<button type="button" class="btn" data-dismiss="modal">Close</button></h4>
+		  
+		</div>
+  
+		<!-- Modal body -->
+		<div class="modal-body" style="overflow-y:auto;">
+		  <div id="over_map">
+
+		  </div>
+		</div>
+  
+		<!-- Modal footer -->
+		<!-- <div class="modal-footer">
+		  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		</div> -->
+  
+	  </div>
+	</div>
+  </div>
+ 
+
+
+ 
