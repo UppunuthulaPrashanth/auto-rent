@@ -144,19 +144,19 @@
 
   
   <!-- The Modal -->
-  <div class="modal" id="myModal">
-	<div class="modal-dialog">
+  <div class="modal" id="myModal" >
+	<div class="modal-dialog" >
 	  <div class="modal-content">
   
 		<!-- Modal Header -->
 		<div class="modal-header">
-		  <h4 class="modal-title">Booking Locations<button type="button" class="btn" data-dismiss="modal">Close</button></h4>
+		  <span class="modal-title">Booking Locations</span><button type="button" class="btn float-right" data-dismiss="modal" style="float:right !important">Close</button>
 		  
 		</div>
   
 		<!-- Modal body -->
-		<div class="modal-body" style="overflow-y:auto;">
-		  <div id="over_map">
+		<div class="modal-body">
+		  <div id="over_map" style="height:300px">
 
 		  </div>
 		</div>
@@ -169,6 +169,7 @@
 	  </div>
 	</div>
   </div>
+
  
 
 

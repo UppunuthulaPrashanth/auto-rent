@@ -37,7 +37,7 @@ if ( isset( $leaseslug ) && ! empty( $leaseslug ) )
 	//  echo $db->lastQuery();
 	// die;
 
-	$onlinePrice = $rentCarRow[ 'onlinePrice' . $_SESSION[ CURRENT_CURRENCY ] ];
+	$onlinePrice = $rentCarRow[ 'onlinePriceAED'];
 }
 if ( isset( $_POST["pickupLocation2"] ) )
 {

@@ -969,7 +969,7 @@ $counter = mysqli_num_rows( $rentCarResult1 );
 
                                                 <div class="theme-search-results-item-img-wrap">
                                                     <?php
-                                                    if ( ! empty( $rentCarRow[ 'dailyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] && $rentCarRow[ 'weeklyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] && $rentCarRow[ 'monthlyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] ) )
+                                                    if ( ! empty( $rentCarRow[ 'dailyDummyAED'] && $rentCarRow[ 'weeklyDummyAED'] && $rentCarRow[ 'monthlyDummyAED'] ) )
                                                     {
                                                         ?>
                                                         <div class="card" data-label="Deal">
@@ -1146,18 +1146,18 @@ $counter = mysqli_num_rows( $rentCarResult1 );
 
 
 
-                                                                    if ( ! empty( $rentCarRow[ 'dailyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] ) )
+                                                                    if ( ! empty( $rentCarRow[ 'dailyDummyAED'] ) )
 
                                                                     {
 
-                                                                        echo "<span class='was-title'>was&nbsp;<strike>" . (int)$rentCarRow[ 'dailyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] . "</span></strike>";
+                                                                        echo "<span class='was-title'>was&nbsp;<strike>" . (int)$rentCarRow[ 'dailyDummyAED'] . "</span></strike>";
 
                                                                     }
                                                                     ?>
                                                                     <br>
                                                                     <?php
 
-                                                                    echo "<span class='amount-title'>" .''. $_SESSION[ CURRENT_CURRENCY ] .'</span><br>'.' '. (int)$rentCarRow[ 'daily' . $_SESSION[ CURRENT_CURRENCY ] ];
+                                                                    echo "<span class='amount-title'>" .''. $_SESSION[ CURRENT_CURRENCY ] .'</span><br>'.' '. (int)$rentCarRow[ 'dailyAED'];
 
                                                                     ?>
 
@@ -1230,18 +1230,18 @@ $counter = mysqli_num_rows( $rentCarResult1 );
 
 
 
-                                                                    if ( ! empty( $rentCarRow[ 'weeklyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] ) )
+                                                                    if ( ! empty( $rentCarRow[ 'weeklyDummyAED'] ) )
 
                                                                     {
 
-                                                                        echo "<span class='was-title'>was&nbsp;<strike>" . (int)$rentCarRow[ 'weeklyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] . "</span></strike>";
+                                                                        echo "<span class='was-title'>was&nbsp;<strike>" . (int)$rentCarRow[ 'weeklyDummyAED'] . "</span></strike>";
 
                                                                     }
                                                                     ?>
                                                                     <br>
                                                                     <?php
 
-                                                                    echo "<span class='amount-title'>" .''. $_SESSION[ CURRENT_CURRENCY ] .'</span><br>'.' ' . (int)$rentCarRow[ 'weekly' . $_SESSION[ CURRENT_CURRENCY ] ];
+                                                                    echo "<span class='amount-title'>" .''. $_SESSION[ CURRENT_CURRENCY ] .'</span><br>'.' ' . (int)$rentCarRow[ 'weeklyAED' ];
 
                                                                     ?><br><span class="sub-font-1">/week</span> </p>
 
@@ -1325,18 +1325,18 @@ $counter = mysqli_num_rows( $rentCarResult1 );
 
 
 
-                                                                    if ( ! empty( $rentCarRow[ 'monthlyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] ) )
+                                                                    if ( ! empty( $rentCarRow[ 'monthlyDummyAED'] ) )
 
                                                                     {
 
-                                                                        echo "<span class='was-title'>was&nbsp;<strike>" . ' '.(int)$rentCarRow[ 'monthlyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] . "</span></strike>";
+                                                                        echo "<span class='was-title'>was&nbsp;<strike>" . ' '.(int)$rentCarRow[ 'monthlyDummyAED'] . "</span></strike>";
 
                                                                     }
                                                                     ?>
                                                                     <br>
                                                                     <?php
 
-                                                                    echo "<span class='amount-title'>" .''. $_SESSION[ CURRENT_CURRENCY ] .'</span><br>'.' '. (int)$rentCarRow[ 'monthly' . $_SESSION[ CURRENT_CURRENCY ] ];
+                                                                    echo "<span class='amount-title'>" .''. $_SESSION[ CURRENT_CURRENCY ] .'</span><br>'.' '. (int)$rentCarRow[ 'monthlyAED' ];
 
                                                                     ?><br><span class="sub-font-1">/month</span> </p>
 

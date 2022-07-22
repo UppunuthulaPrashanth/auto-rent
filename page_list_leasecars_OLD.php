@@ -660,7 +660,7 @@ $counter       = mysqli_num_rows( $rentCarResult );
 
                                                         <?php
 
-                                                        echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'monthly' . $_SESSION[ CURRENT_CURRENCY ] ];
+                                                        echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'monthlyAED' ];
 
                                                         ?></p>
 

@@ -216,11 +216,11 @@ if ( isset( $slug ) && ! empty( $slug ) )
 //
 //	 die;
 
-	$dailyPrice   = $rentCarRow[ 'daily' . $_SESSION[ CURRENT_CURRENCY ] ];
+	$dailyPrice   = $rentCarRow[ 'dailyAED'];
 
-	$weeklyPrice  = $rentCarRow[ 'weekly' . $_SESSION[ CURRENT_CURRENCY ] ];
+	$weeklyPrice  = $rentCarRow[ 'weeklyAED' ];
 
-	$monthlyPrice = $rentCarRow[ 'monthly' . $_SESSION[ CURRENT_CURRENCY ] ];
+	$monthlyPrice = $rentCarRow[ 'monthlyAED' ];
 
 	$phase1OrangeCard = $rentCarRow[ 'phase1OrangeCard'];
 
@@ -232,9 +232,9 @@ if ( isset( $slug ) && ! empty( $slug ) )
 
 
 
-//	$onlinePrice  = $rentCarRow[ 'onlinePrice' . $_SESSION[ CURRENT_CURRENCY ] ];
+//	$onlinePrice  = $rentCarRow[ 'onlinePriceAED' ];
 
-//	$vrf4         = $rentCarRow[ 'vrf' . $_SESSION[ CURRENT_CURRENCY ] ];
+//	$vrf4         = $rentCarRow[ 'vrfAED' ];
 
 }
 

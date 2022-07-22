@@ -736,4 +736,15 @@ select option {
   }
 
 
+  .modal.show  {
+    display:flex!important;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+    align-items: flex-start;
+    padding-right: 170px !important; 
+    padding-top:99 !important;
+  }
+
+
   

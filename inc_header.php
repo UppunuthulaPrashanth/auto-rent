@@ -25,7 +25,7 @@
                            <a class="<?php echo $row['class']; ?> header-call-now" href="<?php echo $row['linkTo'];?>" target="_blank" style="background-color:transparent"></a>
                         </li>
                         <?php } ?>
-
+                              
                   <li><a href="tel:80054999" class="text-upcase header-call-now call-phone"><i class="fa fa-phone"></i> &nbsp;800 54 999</a></li>
             </ul>
          </div>
@@ -100,7 +100,7 @@
                         </div>
                      </div>
                   </li>
-                  <li class="dropdown" style="display:none">
+                  <li class="dropdown" style="display:none;">
                      <a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="_desk-h">Region</span> <img class="navbar-flag" src="img/flag_codes/uae.png" alt="UAE" title="Image Title"/>&nbsp;&nbsp;UAE </a>
                      <div class="dropdown-menu dropdown-menu-sm">
                         <div class="row" data-gutter="10">

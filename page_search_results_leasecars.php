@@ -318,7 +318,7 @@ $counter       = mysqli_num_rows( $rentCarResult );
 												<div class="theme-search-results-item-price">
 													<p class="theme-search-results-item-price-tag">
 														<?php
-														echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'monthly' . $_SESSION[ CURRENT_CURRENCY ] ];
+														echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'monthlyAED' ];
 														?></p>
 													<p class="theme-search-results-item-price-sign">per month</p>
 												</div>

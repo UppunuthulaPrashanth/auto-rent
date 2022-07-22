@@ -33,7 +33,7 @@ if ( isset( $leaseslug ) && ! empty( $leaseslug ) )
 	$result     = $db->query( "SELECT * FROM lease_cars WHERE slug = ?s", $leaseslug );
 	$rentCarRow = mysqli_fetch_assoc( $result );
 
-	$onlinePrice = $rentCarRow[ 'monthly' . $_SESSION[ CURRENT_CURRENCY ] ];
+	$onlinePrice = $rentCarRow[ 'monthlyAED'];
 	$vehicleID   = $rentCarRow['leaseCarID'];
 }
 
@@ -243,7 +243,7 @@ if ( isset( $leaseslug ) && ! empty( $leaseslug ) )
 									<div class="theme-search-results-item-book">
 										<div class="theme-search-results-item-price">
 											<p class="theme-search-results-item-price-tag">
-												<?php echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'monthly' . $_SESSION[ CURRENT_CURRENCY ] ]; ?></p>
+												<?php echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'monthlyAED']; ?></p>
 											<p class="theme-search-results-item-price-sign">per Month</p>
 										</div>
 

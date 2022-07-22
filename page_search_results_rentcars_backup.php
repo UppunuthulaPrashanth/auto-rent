@@ -478,7 +478,7 @@ $counter       = mysqli_num_rows( $rentCarResult );
                                                         <p class="theme-search-results-item-price-tag">
                                                             <?php
 
-                                                            echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'onlinePrice' . $_SESSION[ CURRENT_CURRENCY ] ];
+                                                            echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'onlinePriceAED'];
 
                                                             ?>
 
@@ -494,7 +494,7 @@ $counter       = mysqli_num_rows( $rentCarResult );
                                                         <p class="theme-search-results-item-price-tag">
                                                             <?php
 
-                                                            echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'offlinePrice' . $_SESSION[ CURRENT_CURRENCY ] ];
+                                                            echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'offlinePriceAED'];
 
                                                             ?>
                                                         </p>

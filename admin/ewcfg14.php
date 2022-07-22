@@ -2,6 +2,7 @@
 /**
  * PHPMaker 2018 configuration file
  */
+error_reporting(0);
 
 // Relative path
 if (!isset($EW_RELATIVE_PATH)) $EW_RELATIVE_PATH = "";

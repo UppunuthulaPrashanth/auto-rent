@@ -38,7 +38,7 @@ if ( isset( $leaseslug ) && ! empty( $leaseslug ) ) {
 	$rentCarRow = mysqli_fetch_assoc( $result );
 	//  echo $db->lastQuery();
 	// die;
-	$onlinePrice = $rentCarRow[ 'onlinePrice' . $_SESSION[ CURRENT_CURRENCY ] ];
+	$onlinePrice = $rentCarRow[ 'onlinePriceAED'];
 }
 if ( isset( $_POST["pickupLocation2"] ) ) {
 	$pickupLocation = filter_var( $_POST['pickupLocation2'], FILTER_SANITIZE_STRING );

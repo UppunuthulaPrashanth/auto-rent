@@ -25,7 +25,9 @@ $row    = mysqli_fetch_assoc( $result );
                             <div class="banner">
                                 <div class=""><img src="uploads/rentlease/<?php echo $weeklyRow['image']?>" alt="<?php echo $weeklyRow['image']?>"></div>
                                 <div class="banner-caption banner-caption-">
+                                    <div>
                                    <center> <h5 class="theme-blog-item-title text-center black-text"><?php echo $weeklyRow['carTitle']?></h5></center>
+                                   </div>
                                     <ul class="theme-search-results-item-car-feature-list">
 
                                         <li>
@@ -83,13 +85,13 @@ $row    = mysqli_fetch_assoc( $result );
 <!---->
 <!--                                            --><?php
 //
-//                                            echo "" . $_SESSION[ CURRENT_CURRENCY ] . " " . $weeklyRow[ 'monthly' . $_SESSION[ CURRENT_CURRENCY ] ];
+//                                            echo "" . $_SESSION[ CURRENT_CURRENCY ] . " " . $weeklyRow[ 'monthlyAED'];
 //                                            ?>
 <!--                                            <span class="strike-font">-->
 <!--                                            --><?php
-//                                            if ( ! empty( $weeklyRow[ 'monthlyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] ) )
+//                                            if ( ! empty( $weeklyRow[ 'monthlyDummyAED'] ) )
 //                                            {
-//                                                echo "<strike><br>" . $_SESSION[ CURRENT_CURRENCY ] . " " .$weeklyRow[ 'monthlyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] . "</strike>";
+//                                                echo "<strike><br>" . $_SESSION[ CURRENT_CURRENCY ] . " " .$weeklyRow[ 'monthlyDummyAED'] . "</strike>";
 //                                            }
 //                                            ?>
 <!--                                                </span>-->
@@ -104,16 +106,16 @@ $row    = mysqli_fetch_assoc( $result );
                                                 <?php
                                                 echo  " ";
 
-                                                if ( ! empty( $weeklyRow[ 'monthlyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] ) )
+                                                if ( ! empty( $weeklyRow[ 'monthlyDummyAED'] ) )
                                                 {
-                                                    echo "<span class='was-title'>was&nbsp;<strike>" .' '.$weeklyRow[ 'monthlyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] . "</span></strike>";
+                                                    echo "<span class='was-title'>was&nbsp;<strike>" .' '.$weeklyRow[ 'monthlyDummyAED'] . "</span></strike>";
                                                 }
                                                 ?>
                                                 <br>
                                                 <?php
-                                                echo "<span class='amount-title'>" .''. $_SESSION[ CURRENT_CURRENCY ] .'</span>'.'<span style="font-size:20px">'.$weeklyRow[ 'monthly' . $_SESSION[ CURRENT_CURRENCY ] ].'</span>';
+                                                echo "<span class='amount-title'>" .''. $_SESSION[ CURRENT_CURRENCY ] .'</span>'.'<span style="font-size:20px">'.$weeklyRow[ 'monthlyAED'].'</span>';
                                                 ?>
-                                                <span class="sub-font-1"> /month </span>
+                                                <!-- <span class="sub-font-1"> /month </span> -->
                                         </a>
 
 
@@ -124,11 +126,11 @@ $row    = mysqli_fetch_assoc( $result );
 
 <!---->
 <!--                                        --><?php
-//                                        if ( !empty( $weeklyRow[ 'monthlyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] ) )
+//                                        if ( !empty( $weeklyRow[ 'monthlyDummyAED'] ) )
 //                                        {
 //                                        ?>
 <!--                                        <a class="btn btn-primary-invert btn-shadow text-upcase" href="book-rent-cars/--><?php //echo $weeklyRow['slug']?><!--">-->
-<!--                                            --><?php //echo "<strike><br>" . $_SESSION[ CURRENT_CURRENCY ] . " " .$weeklyRow[ 'monthlyDummy' . $_SESSION[ CURRENT_CURRENCY ] ] . "</strike>";?>
+<!--                                            --><?php //echo "<strike><br>" . $_SESSION[ CURRENT_CURRENCY ] . " " .$weeklyRow[ 'monthlyDummyAED'] . "</strike>";?>
 <!---->
 <!--                                        </a>-->
 <!--                                        --><?php
@@ -137,7 +139,7 @@ $row    = mysqli_fetch_assoc( $result );
 //                                        {
 //                                        ?>
 <!--                                            <a class="btn btn-primary-invert btn-shadow text-upcase" href="book-rent-cars/--><?php //echo $weeklyRow['slug']?><!--">-->
-<!--                                                --><?php //echo "" . $_SESSION[ CURRENT_CURRENCY ] . " " . $weeklyRow[ 'monthly' . $_SESSION[ CURRENT_CURRENCY ] ];?>
+<!--                                                --><?php //echo "" . $_SESSION[ CURRENT_CURRENCY ] . " " . $weeklyRow[ 'monthlyAED'];?>
 <!---->
 <!--                                            </a>-->
 <!---->
@@ -160,4 +162,7 @@ $row    = mysqli_fetch_assoc( $result );
         </div>
     </div>
 </div>
+
+
+
 

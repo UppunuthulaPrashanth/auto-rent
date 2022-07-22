@@ -35,7 +35,7 @@ if(isset($leaseslug) && !empty($leaseslug))
     // die;
 
     $onlinePrice = $rentCarRow['onlinePrice' . $_SESSION[CURRENT_CURRENCY]];
-    $vrf4        = $rentCarRow[ 'vrf' . $_SESSION[ CURRENT_CURRENCY ] ];
+    $vrf4        = $rentCarRow[ 'vrfAED'];
 }
 
 
@@ -257,7 +257,7 @@ if(isset($leaseslug) && !empty($leaseslug))
                         <div class="theme-search-results-item-book">
                           <div class="theme-search-results-item-price">
                              <p class="theme-search-results-item-price-sign">Pay Online</p>
-                            <p class="theme-search-results-item-price-tag"><?php echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'onlinePrice' . $_SESSION[ CURRENT_CURRENCY ] ];?></p>
+                            <p class="theme-search-results-item-price-tag"><?php echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'onlinePriceAED'];?></p>
                             <p class="theme-search-results-item-price-sign">per month</p>
                           </div>
                          
@@ -266,7 +266,7 @@ if(isset($leaseslug) && !empty($leaseslug))
                         <div class="theme-search-results-item-book">
                           <div class="theme-search-results-item-price">
                             <p class="theme-search-results-item-price-sign">Pay Later</p>
-                            <p class="theme-search-results-item-price-tag"><?php echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'offlinePrice' . $_SESSION[ CURRENT_CURRENCY ] ];?></p>
+                            <p class="theme-search-results-item-price-tag"><?php echo $_SESSION[ CURRENT_CURRENCY ] . " " . $rentCarRow[ 'offlinePriceAED'];?></p>
                             <p class="theme-search-results-item-price-sign">per month</p>
                           </div>
                     
@@ -322,7 +322,7 @@ if(isset($leaseslug) && !empty($leaseslug))
         <div class="col-md-5">
             <div class="row">
         <div class="col-md-8"><span class="icheck-title"><?php echo $rentCarRow['additionalDriver' . $_SESSION[CURRENT_CURRENCY]];?> <?php echo $_SESSION[CURRENT_CURRENCY];?></span></div>
-        <div class="col-md-4">   <input class="icheck" type="checkbox" id="iDelivery" name="iDelivery"  value="<?php echo $rentCarRow['additionalDriver'. $_SESSION[CURRENT_CURRENCY]];?>"  ></div>
+        <div class="col-md-4">   <input class="icheck" type="checkbox" id="iDelivery" name="iDelivery"  value="<?php echo $rentCarRow['additionalDriverAED'];?>"  ></div>
     </div>
             
             
@@ -380,7 +380,7 @@ if(isset($leaseslug) && !empty($leaseslug))
         <div class="col-md-5">
             <div class="row">
         <div class="col-md-8"><span class="icheck-title" style="font-size: 23px"><?php echo $rentCarRow['vrf' . $_SESSION[CURRENT_CURRENCY]];?> <?php echo $_SESSION[CURRENT_CURRENCY];?> </span></div>
-        <div class="col-md-4">   <input checked class="icheck" disabled="disabled" type="hidden" id="ivrf" name="ivrf"  value="<?php echo $rentCarRow[ 'vrf' . $_SESSION[ CURRENT_CURRENCY ] ]; ?>" /></div>
+        <div class="col-md-4">   <input checked class="icheck" disabled="disabled" type="hidden" id="ivrf" name="ivrf"  value="<?php echo $rentCarRow[ 'vrfAED']; ?>" /></div>
     </div>
             
             
@@ -405,7 +405,7 @@ if(isset($leaseslug) && !empty($leaseslug))
         <div class="col-md-5">
             <div class="row">
         <div class="col-md-8"><span class="icheck-title"><?php echo $rentCarRow['scdw' . $_SESSION[CURRENT_CURRENCY]];?> <?php echo $_SESSION[CURRENT_CURRENCY];?> </span></div>
-        <div class="col-md-4">   <input class="icheck" type="checkbox" id="iscdw" name="iscdw"  value="<?php echo $rentCarRow[ 'scdw' . $_SESSION[ CURRENT_CURRENCY ] ]; ?>"  /></div>
+        <div class="col-md-4">   <input class="icheck" type="checkbox" id="iscdw" name="iscdw"  value="<?php echo $rentCarRow[ 'scdwAED']; ?>"  /></div>
     </div>
             
             
@@ -430,7 +430,7 @@ if(isset($leaseslug) && !empty($leaseslug))
         <div class="col-md-5">
             <div class="row">
         <div class="col-md-8"><span class="icheck-title"><?php echo $rentCarRow['cdw' . $_SESSION[CURRENT_CURRENCY]];?> <?php echo $_SESSION[CURRENT_CURRENCY];?> </span></div>
-        <div class="col-md-4">   <input class="icheck"  id="icdw" name="icdw"  value="<?php echo $rentCarRow[ 'cdw' . $_SESSION[ CURRENT_CURRENCY ] ]; ?>"  type="checkbox"/></div>
+        <div class="col-md-4">   <input class="icheck"  id="icdw" name="icdw"  value="<?php echo $rentCarRow[ 'cdwAED']; ?>"  type="checkbox"/></div>
     </div>
             
             
@@ -455,7 +455,7 @@ if(isset($leaseslug) && !empty($leaseslug))
         <div class="col-md-5">
             <div class="row">
         <div class="col-md-8"><span class="icheck-title"><?php echo $rentCarRow['pai' . $_SESSION[CURRENT_CURRENCY]];?> <?php echo $_SESSION[CURRENT_CURRENCY];?> </span></div>
-        <div class="col-md-4">   <input class="icheck" id="ipai" name="ipai"  value="<?php echo $rentCarRow[ 'pai' . $_SESSION[ CURRENT_CURRENCY ] ]; ?>" type="checkbox"/></div>
+        <div class="col-md-4">   <input class="icheck" id="ipai" name="ipai"  value="<?php echo $rentCarRow[ 'paiAED']; ?>" type="checkbox"/></div>
                 <input id="leasehd" name="leasehd" value="1" type="hidden"> </input>
             </div>
             
@@ -484,7 +484,7 @@ if(isset($leaseslug) && !empty($leaseslug))
         <div class="col-md-5">
             <div class="row">
         <div class="col-md-8"><span class="icheck-title"><?php echo $rentCarRow['gps' . $_SESSION[CURRENT_CURRENCY]];?> <?php echo $_SESSION[CURRENT_CURRENCY];?> / PER DAY</span></div>
-        <div class="col-md-4">   <input class="icheck" id="igps" name="igps"  value="<?php echo $rentCarRow[ 'gps' . $_SESSION[ CURRENT_CURRENCY ] ]; ?>" type="checkbox"/></div>
+        <div class="col-md-4">   <input class="icheck" id="igps" name="igps"  value="<?php echo $rentCarRow[ 'gpsAED']; ?>" type="checkbox"/></div>
     </div>
 
 
@@ -509,7 +509,7 @@ if(isset($leaseslug) && !empty($leaseslug))
         <div class="col-md-5">
             <div class="row">
         <div class="col-md-8"><span class="icheck-title"><?php echo $rentCarRow['additionalDriver' . $_SESSION[CURRENT_CURRENCY]];?> <?php echo $_SESSION[CURRENT_CURRENCY];?> / PER DAY</span></div>
-        <div class="col-md-4">   <input class="icheck" id="iad" name="iad"  value="<?php echo $rentCarRow[ 'additionalDriver' . $_SESSION[ CURRENT_CURRENCY ] ]; ?>" type="checkbox"/></div>
+        <div class="col-md-4">   <input class="icheck" id="iad" name="iad"  value="<?php echo $rentCarRow[ 'additionalDriverAED']; ?>" type="checkbox"/></div>
     </div>
             
             
@@ -534,7 +534,7 @@ if(isset($leaseslug) && !empty($leaseslug))
         <div class="col-md-5">
             <div class="row">
         <div class="col-md-8"><span class="icheck-title"><?php echo $rentCarRow['babySafetySeat' . $_SESSION[CURRENT_CURRENCY]];?> <?php echo $_SESSION[CURRENT_CURRENCY];?> / PER DAY</span></div>
-        <div class="col-md-4">   <input class="icheck" id="ibss" name="ibss"  value="<?php echo $rentCarRow[ 'babySafetySeat' . $_SESSION[ CURRENT_CURRENCY ] ]; ?>"  type="checkbox"/></div>
+        <div class="col-md-4">   <input class="icheck" id="ibss" name="ibss"  value="<?php echo $rentCarRow[ 'babySafetySeatAED']; ?>"  type="checkbox"/></div>
     </div>
             
             
@@ -560,7 +560,7 @@ if(isset($leaseslug) && !empty($leaseslug))
         <div class="col-md-5">
             <div class="row">
         <div class="col-md-8"><span class="icheck-title"><?php echo $rentCarRow['addBabySafetySeat' . $_SESSION[CURRENT_CURRENCY]];?> <?php echo $_SESSION[CURRENT_CURRENCY];?> / PER DAY</span></div>
-        <div class="col-md-4">   <input class="icheck" id="iabss" name="iabss"  value="<?php echo $rentCarRow[ 'addBabySafetySeat' . $_SESSION[ CURRENT_CURRENCY ] ]; ?>" type="checkbox"/></div>
+        <div class="col-md-4">   <input class="icheck" id="iabss" name="iabss"  value="<?php echo $rentCarRow[ 'addBabySafetySeatAED']; ?>" type="checkbox"/></div>
     </div>
             
             

@@ -504,7 +504,7 @@ WHERE pay_as_you_drive.active = 1 GROUP BY pay_as_you_drive.bodyTypeID" );
                                                         <p class="theme-search-results-item-price-tag">
                                                             <?php
                                                             echo $_SESSION[ CURRENT_CURRENCY ] . " ";
-                                                            echo " " . $rentCarRow[ 's1Daily' . $_SESSION[ CURRENT_CURRENCY ] ];
+                                                            echo " " . $rentCarRow[ 's1DailyAED'];
                                                             ?>
                                                             /Day <p class="theme-search-results-item-car-location-title">For <?php echo $rentCarRow['s1DailyKM']; ?> KM</p>
                                                         </p>
@@ -521,7 +521,7 @@ WHERE pay_as_you_drive.active = 1 GROUP BY pay_as_you_drive.bodyTypeID" );
                                                         <p class="theme-search-results-item-price-tag">
                                                             <?php
                                                             echo $_SESSION[ CURRENT_CURRENCY ] . " ";
-                                                            echo " " . $rentCarRow[ 's1Weekly' . $_SESSION[ CURRENT_CURRENCY ] ];
+                                                            echo " " . $rentCarRow[ 's1WeeklyAED'];
                                                             ?>
                                                             /Week
                                                         <p class="theme-search-results-item-car-location-title">For <?php echo $rentCarRow['s1WeeklyKM']; ?> KM</p></p>
@@ -549,7 +549,7 @@ WHERE pay_as_you_drive.active = 1 GROUP BY pay_as_you_drive.bodyTypeID" );
                                                         <p class="theme-search-results-item-price-tag">
                                                             <?php
                                                             echo $_SESSION[ CURRENT_CURRENCY ] . " ";
-                                                            echo " " . $rentCarRow[ 's1Monthly' . $_SESSION[ CURRENT_CURRENCY ] ];
+                                                            echo " " . $rentCarRow[ 's1MonthlyAED'];
                                                             ?>
                                                             /Month <p class="theme-search-results-item-car-location-title">For <?php echo $rentCarRow['s1MonthlyKM']; ?> KM</p>
                                                         </p>

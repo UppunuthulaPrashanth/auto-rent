@@ -3304,6 +3304,10 @@ document.getElementsByName("pickupDate")[0].min = today;
 
 });
 
+
+// if ( window.history.replaceState ) {
+//   window.history.replaceState( null, null, window.location.href );
+// }
 </script>
 
 
@@ -3344,8 +3348,8 @@ var locations = [
     ];
 
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 3,
-      center: new google.maps.LatLng(23.6,58.6),
+      zoom: 5,
+      center: new google.maps.LatLng(20.6,58.6),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
@@ -3387,6 +3391,77 @@ var locations = [
 
 
 
+<!-- fetching user latitude longitude -->
+<!-- <script>
+    $('#myModal').modal({
+            show: true,
+            backdrop: false
+        });
+
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(initMap);
+}
+
+function initMap(position) {
+    var lat = position.coords.latitude;
+    var long = position.coords.longitude;
+    
+    var pointA = new google.maps.LatLng(lat, long),
+        pointB = new google.maps.LatLng(17.59124843377113, 79.23058434942016),
+        myOptions = {
+            zoom: 10,
+            center: pointA
+        },
+        map = new google.maps.Map(document.getElementById('over_map'), myOptions),
+        // Instantiate a directions service.
+        directionsService = new google.maps.DirectionsService,
+        directionsDisplay = new google.maps.DirectionsRenderer({
+            map: map
+        }),
+        markerA = new google.maps.Marker({
+            position: pointA,
+            title: "point A",
+            label: "A",
+            map: map
+        }),
+        markerB = new google.maps.Marker({
+            position: pointB,
+            title: "point B",
+            label: "B",
+            map: map
+        });
+
+    // get route from A to B
+    calculateAndDisplayRoute(directionsService, directionsDisplay, pointA, pointB);
+
+}
+
+
+
+function calculateAndDisplayRoute(directionsService, directionsDisplay, pointA, pointB) {
+    directionsService.route({
+        origin: pointA,
+        destination: pointB,
+        avoidTolls: true,
+        avoidHighways: false,
+        travelMode: google.maps.TravelMode.DRIVING
+    }, function (response, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+        } else {
+            window.alert('Directions request failed due to ' + status);
+        }
+    });
+}
+
+initMap();
+
+
+
+</script> -->
+<!-- end fetching user latitude longiture -->
+
+
 <style>
     .dfBDQI
     {
@@ -3407,6 +3482,7 @@ var locations = [
 
 </style>
 <!-- /GetButton.io widget -->
+
 
 
 
